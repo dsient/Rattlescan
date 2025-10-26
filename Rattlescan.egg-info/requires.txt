@@ -1,5 +1,5 @@
+python-magic>=0.4.27
 Pillow>=9.0.0
 PyPDF2>=3.0.0
 mutagen>=1.45.0
 pytermgui>=7.0.0
-python-magic>=0.4.27
