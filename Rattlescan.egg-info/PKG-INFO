@@ -1,0 +1,59 @@
+Metadata-Version: 2.4
+Name: Rattlescan
+Version: 1.0.0
+Summary: Forensic metadata analysis and secure file cleaning tool for CLI environments.
+Home-page: https://github.com/dsient/rattlescan
+Author: Walker Caskey
+Author-email: w.caskey7@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10-3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Topic :: Security
+Classifier: Topic :: System :: Filesystems
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-magic>=0.4.27
+Requires-Dist: Pillow>=9.0.0
+Requires-Dist: PyPDF2>=3.0.0
+Requires-Dist: mutagen>=1.45.0
+Requires-Dist: pytermgui>=7.0.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# 🐍 Rattlescan
+Forensic metadata analysis and secure file cleaning tool.
+
+## Installation
+```bash
+pip install rattlescan
+sudo apt install rattlescan
+```
+
+## Usage
+```bash
+rattlescan /path/to/file
+```
+
+## Features
+
+- Cryptographic hash calculation (MD5, SHA-1, SHA-256)
+- File type detection and validation
+- Entropy analysis
+- EXIF metadata extraction
+- PDF metadata extraction
+- Audio/video metadata extraction
+- Metadata cleaning
+- Secure file wiping (DOD 5220.22-M)
