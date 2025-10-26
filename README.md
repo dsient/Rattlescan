@@ -1,17 +1,17 @@
-# 🐍 Rattlescan
+# RATTLESCAN
 Forensic metadata analysis and secure file cleaning tool.
 
-## Installation
+## INSTALLATION
 ```bash
 pip install rattlescan
 ```
 
-## Usage
+## USAGE
 ```bash
 rattlescan /path/to/file
 ```
 
-## Features
+## FEATURES
 
 - Cryptographic hash calculation (MD5, SHA-1, SHA-256)
 - File type detection and validation
