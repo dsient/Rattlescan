@@ -4,7 +4,6 @@ Forensic metadata analysis and secure file cleaning tool.
 ## Installation
 ```bash
 pip install rattlescan
-sudo apt install rattlescan
 ```
 
 ## Usage
